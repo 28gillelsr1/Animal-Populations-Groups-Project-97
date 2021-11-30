@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mammals</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script src="mammal.js"></script>
+<center>
+<div class="navbar" id="navbar" style="position:sticky; ">
+    <ul class="menu">
+        <li class="links"><a href="#Critically_Endangered">CRITICALLY ENDANGERED</a></li>
+        <li class="links"><a href="#Endangered">ENDANGERED</a></li>
+        <li class="links"><a href="#Least_Concerned">LEAST CONCERNED</a></li>
+        <li class="links"><a href="#More_Info">MORE INFO</a></li>
+        <li class="links"><a href="#Thanks">THANKS</a></li>
+        <li><button style="font-size: medium; position:relative; left:45%; top:20%; border-radius: 15px; color:darkblue;" id="back" class="button" onclick="back()">Back</button></li>
+        </ul>
+        
+   <br>
+   <br>
+   <br>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 30%;
+    margin: auto;
+  }
+    .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  </style>
+  
+
+</head>
+<body>
+    <section id="Critically_Endangered">
+<p style="font-weight: bold; font-size: 50px; text-align: center;">Critically Endangered Animals</p>
+<div class="container">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://wwfint.awsassets.panda.org/img/v_solkin_far_eastern_leopard_358873.jpg"  width="460" height="345"><p style="text-align: center; font-weight: bold;">Amur Leopard | Panthera pardus orientalis | 60-80 left</p>
+      </div>
+
+      <div class="item">
+        <img src="https://1x.com/images/user/67290469d4603fd14fa55528f56e2924-ld.jpg"><p style="text-align: center; font-weight: bold;">Bornean Orangutan | Pongo pygmaeus | Less than 100,000</p>
+      </div>
+    
+      <div class="item">
+        <img src="https://kids.kiddle.co/images/thumb/2/26/Sumatra-tiger_Panthera-tigris-sumatrae.jpg/300px-Sumatra-tiger_Panthera-tigris-sumatrae.jpg" width="460" height="345"><p style="text-align: center; font-weight: bold;">Sunda Tiger | Panthera tigris sondaica | Less than 400</p>
+      </div>
+
+      <div class="item">
+        <img src="https://scx2.b-cdn.net/gfx/news/2014/4-thisundatedp.jpg" width="460" height="345"><p style="text-align: center; font-weight: bold;">Sumatran Rhino | Dicerorhinus sumatrensis | Less than 80</p>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</section>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+<section id="Endangered">
+<p style="font-weight: bold; font-size: 50px; text-align: center;">Endangered Animals</p>
+<div class="container">
+
+  <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+ 
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel2" data-slide-to="1"></li>
+      <li data-target="#myCarousel2" data-slide-to="2"></li>
+      <li data-target="#myCarousel2" data-slide-to="3"></li>
+    </ol>
+
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://imgc.allpostersimages.com/img/posters/male-indian-asian-elephant-in-grassland_u-L-Q105ZP50.jpg?p=0"  width="460" height="345"><p style="text-align: center; font-weight: bold;">Asian Elephant | Elephas maximus indicus | Endangered</p>
+      </div>
+
+      <div class="item">
+        <img src="https://live.staticflickr.com/5637/22513908321_97252e7db1_b.jpg"><p style="text-align: center; font-weight: bold;">Black-footed Ferret | Mustela nigripes | Endangered</p>
+      </div>
+    
+      <div class="item">
+        <img src="https://imgc.allpostersimages.com/img/posters/pensive-chimpanzee_u-L-PZRR570.jpg?artPerspective=n" width="460" height="345"><p style="text-align: center; font-weight: bold;">Chimpanzee | Pan troglodytes | Endangered</p>
+      </div>
+
+      <div class="item">
+        <img src="https://imgc.artprintimages.com/img/print/red-panda_u-l-pzrdx10.jpg?artPerspective=n" width="460" height="345"><p style="text-align: center; font-weight: bold;">Red Panda | Ailurus fulgens | Endangered</p>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+      <span class="glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+      <span class="glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</section>
+
+<br>
+
+
+<br>
+
+
+<br>
+<section id="Least_Concerned">
+<p style="font-weight: bold; font-size: 50px; text-align: center;">Least Concerned Animals</p>
+<div class="container">
+
+  <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+ 
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel3" data-slide-to="1"></li>
+      <li data-target="#myCarousel3" data-slide-to="2"></li>
+      <li data-target="#myCarousel3" data-slide-to="3"></li>
+    </ol>
+
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/cc/0b/19/one-of-the-arctic-wolves.jpg"  width="460" height="345"><p style="text-align: center; font-weight: bold;">Arctic Wolf | Canis lupus arctos | Least Concern</p>
+      </div>
+
+      <div class="item">
+        <img src="https://imgc.allpostersimages.com/img/posters/brown-bear-katmai-national-park-alaska_u-L-PZMOOJ0.jpg?artPerspective=n"><p style="text-align: center; font-weight: bold;">Brown Bear | Ursus arctos | Least Concern</p>
+      </div>
+    
+      <div class="item">
+        <img src="https://image1.masterfile.com/getImage/NjE0LTAyODM3NjkxZW4uMDAwMDAwMDA=AH$5WZ/614-02837691en_Masterfile.jpg" width="460" height="345"><p style="text-align: center; font-weight: bold;">Common Bottlenose Dolphin | Tursiops truncates | Least Concern</p>
+      </div>
+
+      <div class="item">
+        <img src="https://photos.smugmug.com/Animals/Tree-Kangaroos/i-kcHbkLm/1/e1a1d766/M/D2X_0964-M.jpg" width="460" height="345"><p style="text-align: center; font-weight: bold;">Tree Kangaroo | Dendrolagus sp. | Least Concern</p>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+      <span class="glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+      <span class="glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</section>
+<br>
+<br>
+<br>
+
+</body>
+
+<section id="More_Info">
+    <h1>For More Info Look Here</h1>
+    <a style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: bold; font-size: 40px;" href="https://www.worldwildlife.org/species/directory?sort=extinction_status&direction=desc" target="_blank">Visit WWF!</a> 
+
+</section>
+<br>
+<br>
+<br>
+<section id="Thanks">
+    <h1>Special Thanks to <a href="https://www.worldwildlife.org/species" target="_blank">WWF</a> for giving all this information!</h1>
+</section>
+</html>
+

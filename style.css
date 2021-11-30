@@ -1,0 +1,124 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  
+  
+  .bg-image {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  
+  .img1 { 
+      background-image: url("https://www.channelfutures.com/files/2021/06/Arctic-Wolf-877x432.jpg"); }
+  .img2 {
+       background-image: url("https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/xyrpgvpx0gk1whjx_1622841000.jpeg"); }
+  .img3 { 
+      background-image: url("https://www.fieldandstream.com/uploads/2019/01/18/XMDYKURUUUBUWRKGWXNYLL5LUM.jpg?auto=webp&width=785&height=588.75"); }
+  
+  
+  
+  
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size:35px;
+    border: 10px solid #f1f1f1;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .button{
+    padding: 10px 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:royalblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {
+    background-color: dodgerblue;
+  }
+  
+  .button:active {
+    background-color:yellowgreen;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  #button_div{
+    position: absolute;
+    right: 40%;
+    top: 290%;
+  }
+
+
+
+
+
+  body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}#myCarousel{
+    background-image: linear-gradient(to bottom right, firebrick,lightcoral);
+}
+#myCarousel2{
+    background-image: linear-gradient(to bottom left,palegoldenrod,orange );
+}
+#myCarousel3{
+    background-image: linear-gradient(to right,lightblue,lightskyblue,dodgerblue );
+}
+
+
+
+#navbar {
+    overflow: hidden;
+    background-color: coral;
+    position:sticky;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+    background-image:linear-gradient(to bottom right,lightsalmon ,coral);
+
+}
+
+
+
+.links {
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+
+}
+ html{
+     scroll-behavior: smooth;
+ }
+
+  
+
+  
+
+  
